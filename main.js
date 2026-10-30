@@ -3,9 +3,10 @@ const searchEngines = [
     { id: 'bing', name: 'Bing', url: 'https://www.bing.com/search?q=' },
     { id: 'google', name: 'Google', url: 'https://www.google.com/search?q=' },
     { id: 'baidu', name: '百度', url: 'https://www.baidu.com/s?wd=' },
-    { id: 'duckduckgo', name: 'DuckDuckGo', url: 'https://duckduckgo.com/?q=' },
+    { id: 'Yandex', name: 'Yandex', url: 'https://yandex.com/search?text=' },
     { id: 'github', name: 'GitHub', url: 'https://github.com/search?q=' },
-    { id: 'zhihu', name: '知乎', url: 'https://www.zhihu.com/search?q=' }
+    { id: 'zhihu', name: '知乎', url: 'https://www.zhihu.com/search?q=' },
+	{ id: '360search', name: '360搜索', url: 'https://m.so.com/index.php?a=index&q=' }
 ];
 
 let currentEngineId = localStorage.getItem('preferredEngine') || 'bing';
